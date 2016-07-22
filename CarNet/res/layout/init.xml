@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+   <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        >
+   <TextView 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:textSize="30sp"
+    android:text="Funny App"
+    />
+	<Button
+    android:id="@+id/ftp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Start WiFi Scan"
+    />
+    <Button
+    android:id="@+id/start"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Normal"
+    />
+	<Button
+    android:id="@+id/back"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Start BackTraffic"
+    />
+
+    <Button
+    android:id="@+id/video"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="View Video Online"
+    />
+
+    <Button
+    android:id="@+id/web"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Web Browser"
+    />
+    <ProgressBar
+        android:id="@+id/progWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:max="100"
+        android:visibility="invisible" />
+    <WebView
+    android:id="@+id/webview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+    
+    </TableLayout>
+   
+</ScrollView>

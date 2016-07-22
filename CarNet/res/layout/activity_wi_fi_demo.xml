@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WiFiDemo" >
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Scan" />
+	<Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Cancel Scan"
+        android:layout_below="@+id/buttonScan" />
+	<Button
+        android:id="@+id/taskstart"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Task Start"
+        android:layout_below="@+id/buttonCancel" />
+	 
+	<Button
+        android:id="@+id/taskend"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Task End"
+        android:layout_below="@+id/taskstart" />
+	 
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/hello_world"
+         android:layout_below="@+id/taskend"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" >
+    </ListView>
+
+</RelativeLayout>
