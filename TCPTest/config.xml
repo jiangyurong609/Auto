@@ -1,0 +1,45 @@
+<Tasks>
+	<Repeat>1</Repeat>
+	<LogEntire>n</LogEntire>
+	<Task>
+		<BackgroundFilename>2M.mp4</BackgroundFilename>
+		<Filename>1000K</Filename>		
+		<FTPFilename>10K</FTPFilename>
+		<BackgroundPORT>7777</BackgroundPORT>
+		<PORT>80</PORT>
+		<WaitTime>3</WaitTime>
+		<MessageSize>large</MessageSize>
+		<ServerIP>204.54.39.44</ServerIP><Hostname>204.54.39.44</Hostname>
+		<rmem_min>null</rmem_min>
+		<rmem_default>null</rmem_default>
+		<rmem_max>null</rmem_max>
+		<ECR>null</ECR>
+		<Timestamp>null</Timestamp>
+		<ECN>null</ECN>
+		<MTU>null</MTU>
+		<Times>1</Times>
+		<Changename>y</Changename>
+		<Closeconnection>y</Closeconnection>	<Gzip>n</Gzip>	<Https>n</Https>
+	</Task>
+	<Task>
+		<BackgroundFilename>2M.mp4</BackgroundFilename>
+		<Filename>1000K</Filename>		
+		<FTPFilename>2M.jpg</FTPFilename>
+		<BackgroundPORT>7777</BackgroundPORT>
+		<PORT>80</PORT>
+		<WaitTime>3</WaitTime>
+		<MessageSize>large</MessageSize>
+		<ServerIP>208.54.5.46</ServerIP><Hostname>208.54.5.46</Hostname>
+		<rmem_min>null</rmem_min>
+		<rmem_default>null</rmem_default>
+		<rmem_max>null</rmem_max>
+		<ECR>null</ECR>
+		<Timestamp>null</Timestamp>
+		<ECN>null</ECN>
+		<MTU>null</MTU>
+		<Times>1</Times>
+		<Changename>y</Changename>
+		<Closeconnection>y</Closeconnection><Gzip>n</Gzip><Https>n</Https>
+	</Task>		
+</Tasks>
+
